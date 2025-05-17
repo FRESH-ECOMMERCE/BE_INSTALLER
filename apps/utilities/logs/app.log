@@ -1,0 +1,107 @@
+{"level":"warn","message":"Invalid request! \"user\" is not allowed","service":"backend-service","timestamp":"2025-05-13 21:27:32"}
+{"level":"warn","message":"Invalid request! \"user.userId\" must be a number","service":"backend-service","timestamp":"2025-05-13 21:31:14"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-13 21:33:07"}
+{"level":"error","message":"Unable to process request! Error: Converting circular structure to JSON\n    --> starting at object with constructor 'Object'\n    --- property 'data' closes the circle","service":"backend-service","stack":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Object'\n    --- property 'data' closes the circle\n    at JSON.stringify (<anonymous>)\n    at stringify (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/express/lib/response.js:1128:12)\n    at ServerResponse.json (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/express/lib/response.js:260:14)\n    at Object.updatePassword (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/build/apps/controllers/users/updatePassword.js:45:63)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/build/apps/routes/v1/userRouter.js:15:97","timestamp":"2025-05-13 21:33:07"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-13 21:34:25"}
+{"level":"error","message":"Unable to process request! Error: Converting circular structure to JSON\n    --> starting at object with constructor 'Object'\n    --- property 'data' closes the circle","service":"backend-service","stack":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Object'\n    --- property 'data' closes the circle\n    at JSON.stringify (<anonymous>)\n    at stringify (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/express/lib/response.js:1128:12)\n    at ServerResponse.json (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/express/lib/response.js:260:14)\n    at Object.updatePassword (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/build/apps/controllers/users/updatePassword.js:46:63)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/build/apps/routes/v1/userRouter.js:15:97","timestamp":"2025-05-13 21:34:25"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-13 21:41:32"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-13 21:42:47"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 17:10:27"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 17:10:27"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 19:48:57"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 19:48:57"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:04:51"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:04:51"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:06:32"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:06:32"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:17:24"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:17:24"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:18:37"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:18:37"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:18:56"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 21:22:05"}
+{"level":"error","message":"Unable to process request! Error: connect ECONNREFUSED ::1:80","service":"backend-service","stack":"Error: connect ECONNREFUSED ::1:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2025-05-15 22:14:22"}
+{"level":"error","message":"Unable to process request! Error: connect ECONNREFUSED ::1:80","service":"backend-service","stack":"Error: connect ECONNREFUSED ::1:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2025-05-15 22:15:44"}
+{"level":"error","message":"Unable to process request! Error: Request failed with status code 403","service":"backend-service","stack":"Error: Request failed with status code 403\n    at createError (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-05-15 22:18:08"}
+{"level":"error","message":"Unable to process request! Error: Request failed with status code 403","service":"backend-service","stack":"Error: Request failed with status code 403\n    at createError (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-05-15 22:18:18"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 22:18:35"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 22:19:43"}
+{"level":"error","message":"Unable to process request! Error: Request failed with status code 403","service":"backend-service","stack":"Error: Request failed with status code 403\n    at createError (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/Users/macbookpro/Documents/DEVELOPER/FRESH/BACKEND/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-05-15 22:20:19"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 22:33:42"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 22:33:42"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-15 22:33:45"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-15 22:33:45"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-15 22:33:54"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-15 22:33:54"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 22:34:19"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-15 22:34:19"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-15 22:34:22"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-15 22:34:22"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 22:58:58"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 22:59:40"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 22:59:54"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 22:59:55"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 23:01:02"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 23:03:18"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 23:03:46"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 6283168421426 is already registered.","service":"backend-service","timestamp":"2025-05-15 23:06:20"}
+{"level":"warn","message":"Invalid request body! \"otpCode\" must be a string","service":"backend-service","timestamp":"2025-05-15 23:42:43"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-16 09:51:48"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-16 09:51:48"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-16 10:03:48"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-16 10:03:48"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:03:51"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:03:51"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:04:00"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:04:00"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:04:47"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:04:58"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:04:59"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:05:04"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:05:42"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:05:49"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:06:23"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:06:45"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:06:51"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:08:46"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:09:52"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:10:03"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:10:03"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:10:33"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:12:27"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:17:38"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:17:41"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:17:55"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:20:22"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:21:43"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:22:02"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:22:12"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:22:59"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:23:05"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:23:12"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:23:17"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-16 10:42:34"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-16 10:42:34"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:42:40"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:42:40"}
+{"level":"info","message":"Fetched detail user successfully","service":"backend-service","timestamp":"2025-05-16 10:42:50"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-16 10:42:52"}
+{"level":"info","message":"Fetched all user successfully","service":"backend-service","timestamp":"2025-05-16 10:42:52"}
+{"level":"info","message":"Attempt to update non-existing user","service":"backend-service","timestamp":"2025-05-16 11:39:03"}
+{"level":"warn","message":"Invalid request! \"whatsappNumber\" length must be at least 10 characters long","service":"backend-service","timestamp":"2025-05-16 21:04:37"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 62831122111133 is not registered.","service":"backend-service","timestamp":"2025-05-16 21:06:21"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 628137957423 is not registered.","service":"backend-service","timestamp":"2025-05-16 21:10:48"}
+{"level":"info","message":"Registration attempt failed: whatsapp number 628137957423 is not registered.","service":"backend-service","timestamp":"2025-05-16 21:19:07"}
+{"level":"warn","message":"Invalid request! \"userWhatsAppNumber\" is required","service":"backend-service","timestamp":"2025-05-16 21:19:42"}
+{"level":"warn","message":"Invalid request! \"userWhatsAppNumber\" is required, \"whatsappNumber\" is not allowed","service":"backend-service","timestamp":"2025-05-16 21:23:48"}
+{"level":"warn","message":"Invalid request! \"userWhatsAppNumber\" is required, \"userWhatsappNumber\" is not allowed","service":"backend-service","timestamp":"2025-05-16 21:24:23"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-16 21:24:57"}
+{"level":"warn","message":"Invalid request! \"otpType\" must be one of [register, resetPassword]","service":"backend-service","timestamp":"2025-05-17 20:11:07"}
+{"level":"warn","message":"Invalid request! \"otpType\" must be one of [register, resetPassword]","service":"backend-service","timestamp":"2025-05-17 20:17:00"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-17 20:18:49"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-17 20:19:00"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-17 20:19:00"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-17 20:43:16"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-17 20:46:23"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-17 20:47:16"}
+{"level":"info","message":"Password updated successfully","service":"backend-service","timestamp":"2025-05-17 20:48:26"}
