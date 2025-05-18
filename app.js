@@ -67,6 +67,13 @@ app.get('/.well-known/pki-validation/:file', (req, res) => {
     res.status(404).send('File not found')
   }
 })
+
+if (!module.parent) {
+  app.listen(5000, () => {
+    console.log('BE_API running on port 5000')
+  })
+}
+
 app.routes = (0, v1_1.appRouterV1)(app)
 
 exports.default = app
