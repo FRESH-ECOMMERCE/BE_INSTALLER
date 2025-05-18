@@ -31,7 +31,6 @@ const waBlasSendMessage = async (req, res) => {
                 userRole: 'user'
             }
         });
-        console.log('====1');
         for (const user of users) {
             if (user.dataValues.userWhatsAppNumber !== null) {
                 const payload = {

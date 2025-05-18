@@ -68,7 +68,5 @@ app.get('/.well-known/pki-validation/:file', (req, res) => {
   }
 })
 app.routes = (0, v1_1.appRouterV1)(app)
-// app.listen(configs_1.CONFIG.port, () => {
-//     console.log(`listening on ${configs_1.CONFIG.port}`);
-// });
+
 exports.default = app
