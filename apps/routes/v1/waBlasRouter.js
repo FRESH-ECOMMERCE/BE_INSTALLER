@@ -16,5 +16,6 @@ const waBlasRouter = (app) => {
     router.post('/send-message', (req, res) => waBlass_1.waBlasController.send(req, res));
     router.get('/history', (req, res) => waBlass_1.waBlasController.findAllHistory(req, res));
     router.get('/history/detail/:waBlasHistoryId', (req, res) => waBlass_1.waBlasController.findDetailHistory(req, res));
+    router.delete('/', async (req, res) => await waBlass_1.waBlasController.removeWablasHistory(req, res));
 };
 exports.waBlasRouter = waBlasRouter;
