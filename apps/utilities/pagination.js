@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Pagination = void 0;
 class Pagination {
-    limit = 10;
-    offset = 0;
-    page = 0;
     constructor(page, size) {
+        this.limit = 10;
+        this.offset = 0;
+        this.page = 0;
         this.page = page;
         this.limit = size ?? 3;
         this.offset = page !== 0 ? page * this.limit : 0;
