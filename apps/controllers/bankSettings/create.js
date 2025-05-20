@@ -1,4 +1,7 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createBankSetting = void 0;
 const http_status_codes_1 = require("http-status-codes");
@@ -6,6 +9,7 @@ const response_1 = require("../../utilities/response");
 const requestCheker_1 = require("../../utilities/requestCheker");
 const uuid_1 = require("uuid");
 const bankSettings_1 = require("../../models/bankSettings");
+const logger_1 = __importDefault(require("../../utilities/logger"));
 const createBankSetting = async (req, res) => {
     const requestBody = req.body;
     const emptyField = (0, requestCheker_1.requestChecker)({
@@ -27,6 +31,7 @@ const createBankSetting = async (req, res) => {
     }
     catch (error) {
         const message = `unable to process request! error ${error.message}`;
+        logger_1.default.error(message);
         const response = response_1.ResponseData.error(message);
         return res.status(http_status_codes_1.StatusCodes.INTERNAL_SERVER_ERROR).json(response);
     }

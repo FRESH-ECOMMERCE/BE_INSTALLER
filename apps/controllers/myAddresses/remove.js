@@ -1,4 +1,7 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.removeMyAddress = void 0;
 const http_status_codes_1 = require("http-status-codes");
@@ -6,6 +9,7 @@ const response_1 = require("../../utilities/response");
 const sequelize_1 = require("sequelize");
 const requestCheker_1 = require("../../utilities/requestCheker");
 const myAddress_1 = require("../../models/myAddress");
+const logger_1 = __importDefault(require("../../utilities/logger"));
 const removeMyAddress = async (req, res) => {
     const requestQuery = req.query;
     const emptyField = (0, requestCheker_1.requestChecker)({
@@ -37,6 +41,7 @@ const removeMyAddress = async (req, res) => {
     }
     catch (error) {
         const message = `unable to process request! error ${error.message}`;
+        logger_1.default.error(message);
         const response = response_1.ResponseData.error(message);
         return res.status(http_status_codes_1.StatusCodes.INTERNAL_SERVER_ERROR).json(response);
     }

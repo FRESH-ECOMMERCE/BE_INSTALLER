@@ -28,6 +28,7 @@ const requestOtp = async (req, res) => {
         });
         if (waBlasSettings === null) {
             const message = 'periksa pengaturan terlebih dahulu, pastikan semua sudah benar!';
+            logger_1.default.error(message);
             const response = response_1.ResponseData.error(message);
             return res.status(http_status_codes_1.StatusCodes.NOT_FOUND).json(response);
         }
@@ -61,6 +62,7 @@ const requestOtp = async (req, res) => {
     }
     catch (error) {
         const message = `unable to process request! error ${error.message}`;
+        logger_1.default.error(message);
         const response = response_1.ResponseData.error(message);
         return res.status(http_status_codes_1.StatusCodes.INTERNAL_SERVER_ERROR).json(response);
     }

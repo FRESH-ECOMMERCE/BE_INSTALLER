@@ -1,4 +1,7 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.findDetailCategory = exports.findAllCategory = void 0;
 const http_status_codes_1 = require("http-status-codes");
@@ -8,6 +11,7 @@ const pagination_1 = require("../../utilities/pagination");
 const requestCheker_1 = require("../../utilities/requestCheker");
 const log_1 = require("../../utilities/log");
 const category1_1 = require("../../models/category1");
+const logger_1 = __importDefault(require("../../utilities/logger"));
 const findAllCategory = async (req, res) => {
     try {
         const page = new pagination_1.Pagination(parseInt(req.query.page) ?? 0, parseInt(req.query.size) ?? 10);
@@ -31,6 +35,7 @@ const findAllCategory = async (req, res) => {
     catch (error) {
         log_1.CONSOLE.error(error.message);
         const message = `unable to process request! error ${error.message}`;
+        logger_1.default.error(message);
         const response = response_1.ResponseData.error(message);
         return res.status(http_status_codes_1.StatusCodes.INTERNAL_SERVER_ERROR).json(response);
     }
@@ -65,6 +70,7 @@ const findDetailCategory = async (req, res) => {
     }
     catch (error) {
         const message = `unable to process request! error ${error.message}`;
+        logger_1.default.error(message);
         const response = response_1.ResponseData.error(message);
         return res.status(http_status_codes_1.StatusCodes.INTERNAL_SERVER_ERROR).json(response);
     }
